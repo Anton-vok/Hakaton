@@ -86,7 +86,6 @@
     Name: str,
     Address: str,
     Cost: int (если нет -1),
-    URL: url,
     Headers: Заголовок(на этой карточке "Отзыв студента"): str,
     Text: str,
     Badge: Массив бэйджей[
