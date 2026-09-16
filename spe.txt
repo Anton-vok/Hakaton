@@ -1,71 +1,71 @@
 Объект главная страница
 [
-    NameEpo: Название программы: str,
-    CodeEpo: Коды программы: str,
-    NameUni: Название вуза: str,
-    NameFac: Название факультета: str,
-    City:    Город: str,
-    AboutURL: Ссылка "подробнее о вузе": url,
-    MarkFre: Баллы на бюджет: int,
-    MarkCom: Баллы на платное: int,
-    TypeEGE: Типы ЕГЭ: str,
-    Cost:    Цена за год обучения: int,
-    Sale:    Есть ли скидки на обучение: int,
-    SizeGro:  Кол человек в группе: int,
-    ColGro:   Кол групп: int,
+    "NameEpo": Название программы: str,
+    "CodeEpo": Коды программы: str,
+    "NameUni": Название вуза: str,
+    "NameFac": Название факультета: str,
+    "City":    Город: str,
+    "AboutURL": Ссылка "подробнее о вузе": url,
+    "MarkFre": Баллы на бюджет: int,
+    "MarkCom": Баллы на платное: int,
+    "TypeEGE": Типы ЕГЭ: str,
+    "Cost":    Цена за год обучения: int,
+    "Sale":    Есть ли скидки на обучение: int,
+    "SizeGro":  Кол человек в группе: int,
+    "ColGro":   Кол групп: int,
 
-    Build: Массив корпусов[
+    "Build": Массив корпусов[
        {объект "здание"}
     ],
-    Dormitory: Массив общежитий[
+    "Dormitory": Массив общежитий[
         {объект "здание"}
     ],
-    HaveVUC: Есть ли ВУЦ: bool,
-    VUCURL: Ссылка на информацию по ВУЦ: url,
+    "HaveVUC": Есть ли ВУЦ: bool,
+    "VUCURL": Ссылка на информацию по ВУЦ: url,
 
-    ColDay:  Количество учебных дней: int,
-    ColCourse: Количество курсов: int,
-    Schedules:  Массив расписаний[
-        Schedule: расписание{
-            Время: str,
-            Название программы: str,
-            Цвет: hex,
+    "ColDay":  Количество учебных дней: int,
+    "ColCourse": Количество курсов: int,
+    "Schedules":  Массив расписаний[
+        "Schedule": расписание{
+            "Time":Время: str,
+            "Name":Название программы: str,
+            "Color":Цвет: hex,
         }
     ],
-    Curriculums: Массив учебных планов[
+    "Curriculums": Массив учебных планов[
 
-        Curriculum: блок учебного плана {
-            Name: str,
-            Curse: массив учебных курсов[
-                Name: str,
-                Badge: [
+        "Curriculum": блок учебного плана {
+            "Name": str,
+            "Curse": массив учебных курсов[
+                "Name": str,
+                "Badge": [
                     {Массив бэйджей, описываеться как "бэйдж"}
                 ],
-                URL: url
+                "URL": url
             ]
         }
     ],
 
-    Clubs: Массив внеучебных клубов[
+    "Clubs": Массив внеучебных клубов[
         {
-            Name: str,
-            Badge: [
+            "Name": str,
+            "Badge": [
                 {Массив бэйджей, описываеться как "бэйдж"}
             ],
-            URL: url,
+            "URL": url,
         }
     ],
-    Char: Массив характеристик[
+    "Char": Массив характеристик[
         {
-            Name: str,
-            Perc: int,
-            Color: hex,
+            "Name": str,
+            "Perc": int,
+            "Color": hex,
         }
     ],
-    Partner: Массив партнеров[
+    "Partner": Массив партнеров[
         {
-            Name: str,
-            Logo: url,
+            "Name": str,
+            "Logo": url,
         }
 
     ]
@@ -74,8 +74,8 @@
 Объект бэйдж
 [
     {
-        Название:str,
-        Цвет: hex
+        "Name":str,
+        "Color": hex
     }
 ]
 
