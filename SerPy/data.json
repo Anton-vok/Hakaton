@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "backgroundColor": "#FFEFA6",
+    "programName": "Компьютерные науки и технологии",
+    "universityName": "ВШЭ НН",
+    "facultyName": "Факультет информатики, математики и компьютерных наук",
+    "cityName": "Нижний Новгород",
+    "universityDetailsUrl": "https://hse.ru",
+    "budgetPoints": 270,
+    "paidPoints": 190,
+    "requiredSubjects": [ "rus", "math_prof", "cs" ],
+    "examsTypes": "ЕГЭ: Русский, Математика (профиль), Информатика",
+    "tuitionFeePerYear": 440000,
+    "hasDiscounts": 1,
+    "studentsPerGroup": 25,
+    "groupsCount": 4,
+    "hasMilitaryDepartment": true,
+    "militaryDepartmentUrl": "https://hse.ru",
+    "interests": [
+      {
+        "id": "cs",
+        "name": "Компьютерные науки",
+        "isActive": true,
+        "color": "#F4C400"
+      },
+      {
+        "id": "dev",
+        "name": "Разработка",
+        "isActive": true,
+        "color": "#A855F7"
+      }
+    ],
+    "specializations": [
+      {
+        "id": "spec1",
+        "name": "Искусственный интеллект",
+        "isActive": true,
+        "color": "#3B82F6"
+      },
+      {
+        "id": "spec2",
+        "name": "Веб-разработка",
+        "isActive": true,
+        "color": "#10B981"
+      }
+    ],
+    "campuses": [
+      {
+        "name": "Корпус на б.Печерской",
+        "address": "Большая Печерская 24/15",
+        "hasPrice": false,
+        "price": -1,
+        "imageUrl": "https://unsplash.com",
+        "reviewTitle": "Отзыв студента",
+        "reviewText": "Занятия по средам с 18:00. Отличный коворкинг на 3 этаже.",
+        "badges": [
+          {
+            "name": "Компьютерные науки",
+            "color": "#FCD34D"
+          }
+        ]
+      }
+    ],
+    "dormitories": [
+      {
+        "name": "Общежитие №1",
+        "address": "ул. Львовская 1В",
+        "hasPrice": true,
+        "price": 1000,
+        "imageUrl": "https://unsplash.com",
+        "reviewTitle": "Отзыв проживающего",
+        "reviewText": "В комнатах тепло, на первом этаже есть коворкинг и тренажерка...",
+        "badges": [
+          {
+            "name": "Блочный тип",
+            "color": "#A855F7"
+          }
+        ]
+      }
+    ],
+    "curriculums": [
+      {
+        "name": "Математика",
+        "blocks": [
+          {
+            "name": "Дискретная математика",
+            "homeworkUrl": "https://github.com",
+            "badges": [
+              {
+                "name": "Множества",
+                "color": "#E9D5FF"
+              },
+              {
+                "name": "Графы",
+                "color": "#FFEFA6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "clubs": [
+      {
+        "name": "Party Time",
+        "url": "https://vk.com",
+        "badges": [
+          {
+            "name": "Мероприятия",
+            "color": "#E9D5FF"
+          }
+        ]
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "Математика",
+        "percentage": 67,
+        "color": "#FCD34D"
+      },
+      {
+        "name": "Программирование",
+        "percentage": 80,
+        "color": "#C084FC"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Яндекс",
+        "logoUrl": "https://yandex.ru"
+      }
+    ]
+  }
+]
